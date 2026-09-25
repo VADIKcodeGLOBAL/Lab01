@@ -139,7 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ComputerManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyComputer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ComputerManager.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MyComputer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
